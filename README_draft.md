@@ -21,7 +21,6 @@ Hi there, thank you for taking the time to read my work. This repository include
 |3|[Model Benchmarks]()| This notebook captures several benchmarks that summarize the performance of our models on the engineered features.|
 |4|[Model Insights]()| This notebook captures the assumptions analysis of our models.|
 |5|[Production]()| This notebook captures the final model and inferences made from the coefficients.|
-|6|[Kaggle Submission]()| This notebook is used to process final predictions on unseen data and format for kaggle submissions.|
 
 ### Background
 Background
