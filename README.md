@@ -10,21 +10,21 @@ Hi there, thank you for taking the time to read my work. This repository include
 
 |Index|Title|Description|
 |---|---|---|
-|0|[Workflow Functions]()| This notebook contains various custom functions that aid our analysis.|
-|1|[Data Wrangling]()| This notebook contains the subreddit data wrangled via the pushshift API.|
-|2|[Preprocessing & Feature Engineering]()| This notebook captures all the preprocessing and feature engineering performed on our training and test data splits.|
-|3|[Model Performances]()| This notebook contains all the model performances on the engineered features.|
-|4|[Production]()| This notebook captures the final model and inferences made from the coefficients.|
+|0|[Workflow Functions](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/code/00_Workflow_Functions.ipynb)| This notebook contains various custom functions that aid our analysis.|
+|1|[Data Wrangling](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/code/01_Data_Wrangling.ipynb)| This notebook contains the subreddit data wrangled via the pushshift API.|
+|2|[Preprocessing & Feature Engineering](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/code/02_Preprocessing_FE.ipynb)| This notebook captures all the preprocessing and feature engineering performed on our training and test data splits.|
+|3|[Model Performances](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/code/03_Model_Performance.ipynb)| This notebook contains all the model performances on the engineered features.|
+|4|[Production](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/code/04_Production.ipynb)| This notebook captures the final model and inferences made from the coefficients.|
 
 ### Background
 This project is focused on developing a classification model that can best predict whether a reddit post belongs in the [r/lifehacks](https://www.reddit.com/r/lifehacks/) or in [r/LifeProTips](https://www.reddit.com/r/lifehacks/) based on the body text of the post. Additionally, our model provides insights on tokenized words that distinguished `r/lifehacks` and `r/LifeProTips`. The data was wrangled from the web using the [Pushshift API](https://github.com/pushshift/api).
 
-We include a presentation deck that summarizes our results [here]().
+We include a presentation deck that summarizes our results [here](https://github.com/Femli/lifehacks_vs_lifeprotips/blob/main/Differences_LH_LPT.pdf).
 
 ---
 ### Data and Resources
 
-For this analysis, we generated our own datasets, which you can find in the [dataset]() directory. The `submissions_data.csv` is the raw data wrangled via the API. The `submissions_data_cleaned.csv` is the dataset we used to train and test our models. Here is the data dictionary for both datasets:
+For this analysis, we generated our own datasets, which you can find in the [dataset](https://github.com/Femli/lifehacks_vs_lifeprotips/tree/main/datasets) directory. The `submissions_data.csv` is the raw data wrangled via the API. The `submissions_data_cleaned.csv` is the dataset we used to train and test our models. Here is the data dictionary for both datasets:
 
 |Column|Data Type|Description|
 |---|---|---|
